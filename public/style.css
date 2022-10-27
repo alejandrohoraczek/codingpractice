@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.one {
+  flex: 1;
+}
+.two {
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+}
+.wrapper {
+  margin-bottom: 1rem;
+}
+.mini {
+  width: 500px;
+  object-fit: contain;
+}
+.tachado {
+  text-decoration: line-through;
+  color: gray;
+}
